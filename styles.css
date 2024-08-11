@@ -5,9 +5,11 @@
 	color: #fff;
 	font-family: monospace;
 }
+
 html{
 	scroll-behavior: smooth;
 }
+
 body{
 	height: 100vh;
 	background-color: #000;
@@ -15,66 +17,28 @@ body{
 }
 
 
-.mater00{
-	background-color: #000;
-	border-right: solid 1px #500078;
-	border-left: solid 1px #500078;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	padding-right: 10px;
-	padding-left: 10px;
-	margin-top: 0px;
-	margin-right: 10px;
-	margin-left: 10px;
-	margin-bottom: 0px;
-}
-
-
-/* Links da página */
-.botao00{
-	color: #a300c8;
-	text-decoration: none;
-}
-.botao00:hover{
-	text-decoration: underline;
-}
-.botao01{
-	color: #cc66ff;
-	text-decoration: none;
-}
-.botao01:hover{
-	text-decoration: underline;
-}
 
 
 
+
+
+/* formatação de parágrafos */
 .texto00{
-	color: #555;
+	color: #999;
 }
 .texto01{
-	color: #fff;
+	color: #35fc03;
 }
 .texto02{
-	color: #888;
+	color: #ff0;
+	text-decoration: underline;
 }
-
-
-
-
-
-
-
-/* Áudios */
-.audioETH{
-	width: 30%;
-	height: 40px;
-	border-style: solid;
-	border-color: #555;
-	border-width: 1px;
-	border-radius: 23px;
-	padding: 4px;
+/* formatação de divs */
+.div00{
+	border: 1px, solid, #a300c8;
+	padding: 20px;
+	margin: 20px;
 }
-
 
 
 
@@ -87,149 +51,3 @@ body{
 	margin-right: 8px;
 	padding: 0px;
 	width: 100px;}
-.img02{
-	margin-right: 8px;
-	padding: 0px;
-	width: 25px;}
-
-
-
-/* Vídeos */
-.vidETH{
-	width: 100%;
-	border: solid, 1px, 1px;
-}
-
-
-
-/* Scroll da página */
-/* width */
-::-webkit-scrollbar {
-  width: 7px;}
-/* Track */
-::-webkit-scrollbar-track {
-  background: #000;}
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #000;
-  border-style: solid;
-  border-color: #500078;
-  border-width: 1px;}
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #000;
-  border-style: solid;
-  border-color: #a300c8;
-  border-width: 1px;}
-/* The buttons on the scrollbar (arrows pointing upwards and downwards). */
-::-webkit-scrollbar-button {
-	background: #000;}
-/* the bottom corner of the scrollbar, where both horizontal and vertical scrollbars meet. */
-::-webkit-scrollbar-corner {
-	background: #000;}
-/* the track (progress bar) NOT covered by the handle. 
-::-webkit-scrollbar-track-piece {} 
-the draggable resizing handle that appears at the bottom corner of some elements.
-::-webkit-resizer {} */
-
-
-
-
-
-
-
-/* Menu lateral */
-nav.menu-lateral{
-	width: 75px;
-	height: 100%;
-	background-color: #000;
-	padding: 10px 0 40px 1%;
-	box-shadow: 1px 0 0 #500078;
-	position: fixed;
-	top: 0;
-	left: 0;
-	overflow: hidden;
-	transition: .5s;
-}
-
-nav.menu-lateral.expandir{
-	width: 300px;
-}
-
-.btn-expandir{
-	width: 100%;
-	padding-left: 10px;
-}
-
-.btn-expandir > i{
-	margin-left: 3px;
-	color: #fff;
-	font-size: 29px;
-	cursor: pointer;
-}
-
-ul{
-	height: 100%;
-	list-style-type: none;
-}
-
-ul li.item-menu{
-	transition: .5s;
-
-}
-
-ul li.ativo{
-	background-color: #500078;
-}
-
-ul li.item-menu:hover{
-	background: #500078;
-}
-
-ul li.item-menu a{
-	color: #fff;
-	text-decoration: none;
-	font-size: 20px;
-	padding: 10px 4%;
-	display: flex;
-	margin-bottom: 10px;
-	line-height: 40px;
-}
-
-ul li.item-menu a .txt-link{
-	margin-left: 70px;
-	transition: .5s;
-	opacity: 0;
-}
-
-nav.menu-lateral.expandir .txt-link{
-	margin-left: 40px;
-	opacity: 1;
-}
-
-ul li.item-menu a .icon > i{
-	font-size: 30px;
-	margin-left: 10px;
-}
-
-
-
-/* tabela */
-		td{
-			color: #a300c8;
-			border-radius: 15px;
-			padding: 15px;
-		}
-		th{
-			padding: 10px;
-		}
-		.botao01{
-			text-decoration: none;
-		}
-		.botao01:hover{
-			color: #d46cd3;
-			text-decoration: underline;
-		}
-		.botao01:visited{
-			color: #0f0;
-		}
